@@ -21,23 +21,21 @@
      , "campfire11.gif"
      , "campfire12.gif"
      , "campfire13.gif"
-     , "campfire14.gif"
   ];
   function getImageTag() {
-    var img = '<img src=\"';
+    var img = '<body style=\"background-image:url(';
     var randomIndex = Math.floor(Math.random() * imageURLs.length);
     img += imageURLs[randomIndex];
-    img += '\" alt="Cozy."/>';
+    img += ')\"';
     return img;
   }
 </script>
-</head>
-<body>
 <script type="text/javascript">
   document.write(getImageTag());
 </script>
+    <div class="content">
     <p>Rest here a while before journeying to your next site.</p>
-
+    </div>
 </center>
   </body>
 </html>
