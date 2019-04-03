@@ -3,23 +3,15 @@ body {
   background: #232729;
 }
 p {
-  font-family: Monospace Regular;
   font-size: 12pt;
   color: white;
 }
-.content {
-  width: 410px;
-  height: 170px;
-  background-color: #33393B;
-  color: #FFFFFF;
-  position:absolute;
-  left:0; right:0;
-  top:0; bottom:0;
-  margin:auto;
-  max-width:100%;
-  max-height:100%;
-  overflow:auto;
-  padding: 10px;
+@font-face {
+    font-family: "NPC Chat"; 
+    src: url("npc_chat.ttf");
+}
+body {
+    font-family: "NPC Chat";
 }
 a:link {
   color: white;
