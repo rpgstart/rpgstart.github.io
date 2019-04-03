@@ -12,7 +12,7 @@ body {
 p {
   font-size: 20pt;
   color: white;
-  -webkit-text-stroke: 0.4px black;
+  -webkit-text-stroke: 0.6px black;
 }
 .content {
   width: 410px;
