@@ -4,15 +4,18 @@
 }
 body {
   margin: 0;
-  background: #232729;
+  background: #232729 center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Chat";
+  font: Chat;
 }
 p {
   font-size: 20pt;
   color: white;
-  -webkit-text-stroke: 0.6px black;
+  -webkit-text-stroke: 0.5px black;
 }
 .content {
   width: 410px;
@@ -27,7 +30,10 @@ p {
   max-height:100%;
   overflow:auto;
   padding: 10px;
-  font-family: "Chat";
+  font: Chat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  display: inline;
 }
 a:link {
   color: white;
