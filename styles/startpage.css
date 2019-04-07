@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   font: Chat;
 }
+html{height:100%,width:100%}
 p {
   font-size: 20pt;
   color: white;
